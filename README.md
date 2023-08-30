@@ -1,38 +1,40 @@
-You will need to copy this markdown, create your own private gist, and paste this markdown in your own gist. After each project, you will take time to come back to your private gist and answer each of the questions that are outlined for you below.
-
 M1 Project Reflections
-Warmup Project: Flash Cards
-Project Overview: Create a flash card trivia game
-List out the tools you used: Classes, Methods, Conditionals, Loops
+*Warmup Project:* Flash Cards
+*Project Overview:* Create a flash card trivia game
+*List out the tools you used:* Classes, Methods, Conditionals, Loops
 ...
 
-Write a 1-2 sentence synopsis of what this project does:
+*Write a 1-2 sentence synopsis of what this project does:*
 This project runs a text based game that will run through a sequence of trivia questions, asking for an answer each time. 
 it runs multiple rounds, with a new question each time, and will track scores and guessing accuracy.
 
 Reflection Questions:
-1. How do you approach solving something when you don’t have all the information?
+*1. How do you approach solving something when you don’t have all the information?*
     - I start by reading all available information, and write some tests to check my code as I go. I usually try a couple experiments, to see if I can make it work by using tools or methods that I'm already familiar with. If I don't figure out a solution this way, it at least helps point me in the right direction, for what I need to google. I google for things based off of what I've run into with my experimenting; ie. methods I might use, why things are interacting in a specific way, etc. If I'm still having issues, I start reaching out to the rest of the cohort or other support that's available to me.
-2. What was your most effective strategy for getting through blockers during this project? How did this help your process?
+*2. What was your most effective strategy for getting through blockers during this project? How did this help your process?*
     - When I really start to feel like I'm up against a wall and making no progress, the best thing I've found to do so far is to just walk away for a bit. even if it's just 15-30 minutes of doing something else and I'll start to see issues with my code that I was missing before. 
-3. Tell us about a time that you found yourself in an unproductive struggle, how did you get out of it?
+*3. Tell us about a time that you found yourself in an unproductive struggle, how did you get out of it?*
     - I spent at least 2 hours trying to solve a single problem. I was working with an instance object, I needed to be able to push that object into an array, and still register as an Instance of the Turn class. I wasn't really understanding implicit return so I kept trying to google things, with very little results, and even reached out to the cohort for help. I ended up giving up for the night and just trying to get a good nights sleep, this worked because it helped refresh my brain and also it gave people more time to respond to me and help me learn what I was missing; an understanding of implicit return.
-4. What was the benefit of using TDD while building out this project?
+*4. What was the benefit of using TDD while building out this project?*
     - TDD is the only way I was really able to wrap my head around what was expected of me with this project. only having the pry interactions told me what we wanted to be able to do with the files, but not how to do it. TDD helped me plan my approach, organize the components I needed to make, and ensure that each block was working as intended!
 
-First Solo
-Project Overview
-List out the tools you used:
+*First Solo:* BeatBox
+*Project Overview:* Create a program that will make your computer beatbox
+*List out the tools you used:* Classes, Methods, while/until/.times loops, Conditional statements
 ...
 
-Write a 1-2 sentence synopsis of what this project does:
-Reflection Questions:
-1. Pick 1 technical concept you used for this project (look back at our lessons and the learning goals of the project to pick this). Explain what this concept is, how it works, and give an example of where you used this in your code.
-2. What was your process when you got stuck?
-3. If you had to do this project again, what would you do differently and why?
+*Write a 1-2 sentence synopsis of what this project does:*
+    - This project will create an instance object called BeatBox, that will add approved sounds to a linked list. The list can be edited, and can return the data of each node as a string or by playing it in audio form.
+*Reflection Questions:*
+*1. Pick 1 technical concept you used for this project (look back at our lessons and the learning goals of the project to pick this). Explain what this concept is, how it works, and give an example of where you used this in your code.*
+    - Scope: scope is what we have access to, and where we can access it. Scope limits the use of objects to the block of code that they're created in, and the order of operations. Scope was very important in this project. I needed to create variables that would allow me to move through each node in the list, and edit their values. I had to use looping methods to do this, and it was only possible because of the concept of scope, without scope I would have needed to create a new variable for each position in the list, and a way to call it, and I'm not sure if that's even possible. Even if it is, I wouldn't want to figure out how to do it.
+*2. What was your process when you got stuck?*
+    - my first step was to go into a pry session and try to recreate the scenario that is throwing the error, and see if there's any way I can easily tweek the way I'm using the code to fix it. If I didn't find a solution that way I moved on to using binding.pry inside the method that I was working with. I put a binding at each section of my method block, after the method would finish a portion of it's task, and before it moved on to the next portion. This allowed me to check the return values and data types of each variable I was working with, and better understand why my method was throwing errors. If I still couldn't solve the problem at this point, I would refactor my code and change my approach.
+*3. If you had to do this project again, what would you do differently and why?*
+    - I want to make sure I'm remembering to make helper methods, I want to learn to use "let" in my RSpec tests. I had to write a lot of repetitive code for my tests, and methods, and I want to do a better job of not repeating myself in my code in general.
 
-Second Solo
-Project Overview
+*Second Solo:*
+*Project Overview:* 
 List out the tools you used:
 ...
 
