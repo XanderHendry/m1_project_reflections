@@ -33,16 +33,20 @@ Reflection Questions:
 *3. If you had to do this project again, what would you do differently and why?*
     - I want to make sure I'm remembering to make helper methods, I want to learn to use "let" in my RSpec tests. I had to write a lot of repetitive code for my tests, and methods, and I want to do a better job of not repeating myself in my code in general.
 
-*Second Solo:*
+*Second Solo:* the_DMV
 *Project Overview:* 
 List out the tools you used:
 ...
+this project worked mostly with hashes, classses, and iteration. 
 
 Write a 1-2 sentence synopsis of what this project does:
 Reflection Questions:
 1. Describe the steps you took to dig in to this code base. What was your process? If you don’t feel you had a process, define one that you might like to try next time.
-2. What was the benefit of using TDD while building out this project?
-3. What was a resource that you used during this project and how did you use this to move your project forward?
+   - my first approach was through nesting .map iteration, by iterating through each element of each hash in the data set, I was able to extract the information that I wanted, but I realized that I was stepping too far into the data set, and I only needed to move down one level to access all the info I needed in a much faster way.
+3. What was the benefit of using TDD while building out this project?
+   - TDD was important because I really didn't know where to start with writing this code. writing the initial tests helped me outline my approach, and writing the code helped me find more things to write tests for. In the end I wouldn't have been able to find the solution I did without TDD.
+5. What was a resource that you used during this project and how did you use this to move your project forward?
+   - I always make sure to use the ruby docs as much as I can, I also joined some group study session with my cohortmates that let us solve a few problems together and use that knowledge for the rest of the project.
 
 Paired Paired
 Project Overview
