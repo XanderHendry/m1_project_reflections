@@ -48,16 +48,22 @@ Reflection Questions:
 5. What was a resource that you used during this project and how did you use this to move your project forward?
    - I always make sure to use the ruby docs as much as I can, I also joined some group study session with my cohortmates that let us solve a few problems together and use that knowledge for the rest of the project.
 
-Paired Paired
+Paired Paired battleship
 Project Overview
 List out the tools you used:
 ...
+this project has been the most complex one I've worked on so far. I've used every tool I've used in previous projects, and Michael and I challenged ourselves to research and impliment inheritance, class methods and integers, and Michael even learned how to colorize our rendering in the terminal.
 
 Write a 1-2 sentence synopsis of what this project does:
+this project will create and run a game of battleship between the user and a computer. It has 3 points for customization; customizable board sizes, from 4x4(standard) to 9x9; customizeable ships, using custom names and a size between 2 and 1 square less than the max board size; and easy, and normal difficulty settings.
 Reflection Questions:
 1. What was your pairing style like? How did you manage your Github work flow? What are your thoughts on that workflow?
-2. What skill do you feel you have a better handle on after working on this project? What skill has this project lead you to realize you need more practice on?
-3. What strategies help you best work with others? What would you like others to know about how you work best?
+   - we started with paired programming. At the beginning of the project the tasks didn't seem like they could be easily divided, as many of the pieces were dependent on eachother. Once we got a bit further into the iterations we were able to split up the work and complete it asyncronously. I really enjoyed pairing with Michael, I felt that our development styles meshed well, and we were able to work out a good schedule. He also had some really amazing insights and really helped me deepen my understanding of a few concepts.
+3. What skill do you feel you have a better handle on after working on this project? What skill has this project lead you to realize you need more practice on?
+   - I think I have a better handle on expressing my thoughts, ideas, and concerns with more technical language. I think I need to work on driver/navigator workflow more, we kind of ended up just watching eachother code and bouncing ideas back and forth a good bit.
+5. What strategies help you best work with others? What would you like others to know about how you work best?
+   - I think doing a dtr really helped, with the time difference I was stressed about scheduling, but we were able to talk about possible times early on and we didn't end up having any problems. I also realized that I sometimes need to take some asyncronous time to work out all my ideas or else I'll end up derailing us a bit whenever we're making good progress by sugguesting things that might not even work as soon as I think of them.
+
 
 Group Project
 Project Overview
